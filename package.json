@@ -3,6 +3,9 @@
   "proxy": "https://alazin-mart.herokuapp.com",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.15.4"
+},
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

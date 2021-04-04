@@ -9,7 +9,6 @@
 - User orders
 - Admin product management
 - Checkout process (shipping, payment method, etc)
-- Database seeder (products & users)
 
 ## Usage
 

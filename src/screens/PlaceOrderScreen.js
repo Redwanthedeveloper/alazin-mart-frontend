@@ -93,7 +93,7 @@ const PlaceOrderScreen = ({ history }) => {
                       <Row>
                         <Col md={1}>
                           <Image
-                            src={item.image}
+                            src={`https://alazinmart.herokuapp.com${item.image}`}
                             alt={item.name}
                             fluid
                             rounded

@@ -24,18 +24,19 @@ const App = () => {
       <Header />
       <main className='py-3'>
         <Container>
-          <Route path='/myorders' component={UserOrderList} />
-          <Route path='/order/:id' component={OrderScreen} />
-          <Route path='/shipping' component={ShippingScreen} />
-          <Route path='/payment' component={PaymentScreen} />
-          <Route path='/placeorder' component={PlaceOrderScreen} />
-          <Route path='/login' component={LoginScreen} />
-          <Route path='/register' component={RegisterScreen} />
-          <Route path='/product/:id' component={ProductScreen} />
-          <Route path='/cart/:id?' component={CartScreen} />
-          <Route path='/admin/userlist' component={UserListScreen} />
-          <Route path='/admin/user/:id/edit' component={UserEditScreen} />
+          <Route exact path='/myorders' component={UserOrderList} />
+          <Route exact path='/order/:id' component={OrderScreen} />
+          <Route exact path='/shipping' component={ShippingScreen} />
+          <Route exact path='/payment' component={PaymentScreen} />
+          <Route exact path='/placeorder' component={PlaceOrderScreen} />
+          <Route exact path='/login' component={LoginScreen} />
+          <Route exact path='/register' component={RegisterScreen} />
+          <Route exact path='/product/:id' component={ProductScreen} />
+          <Route exact path='/cart/:id?' component={CartScreen} />
+          <Route exact path='/admin/userlist' component={UserListScreen} />
+          <Route exact path='/admin/user/:id/edit' component={UserEditScreen} />
           <Route
+            exact
             path='/admin/productlist'
             component={ProductListScreen}
             exact
